@@ -1,0 +1,12 @@
+#stickyheader{
+    transition : transform 0.34s ease;
+}
+
+.headerup {
+    transform: translateY(-120px);
+}
+
+.nav {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
